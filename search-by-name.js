@@ -10,7 +10,7 @@
 
 
 const catNames = ['Cirmi', 'Cirmos', 'Vakarcs', 'Butyok', 'Bubu']
-
+//Mistake made didn't checkout to main
 function main(keyword) {
     for(let catName of catNames){
         if (catName.includes(keyword)) {
