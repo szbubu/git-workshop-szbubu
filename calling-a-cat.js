@@ -9,10 +9,26 @@
 // Execute: node.js calling-a-cat.js Hungarian
 
 function main(language) {
-  console.log('language:', language)
+  switch (language) {
+    case 'Hungarian':
+     return 'cicc/cicc';
+
+      case 'Chinese':
+        return  'miao-miao';
+        
+
+        case 'Tunisian':
+        return  'besh-besh';
+    
+
+          case 'Japanese':
+          return  'neko chan oide';
+            
+
+  }
   // The language variable will be the language from the command line. 
 
 }
 
-main(process.argv[2])
+console.log(main('Hungarian'));
 
