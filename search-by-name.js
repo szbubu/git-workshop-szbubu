@@ -12,8 +12,11 @@
 const catNames = ['Cirmi', 'Cirmos', 'Vakarcs', 'Butyok', 'Bubu']
 
 function main(keyword) {
-    console.log('keyword:', keyword)
-    // Tip: string.prototype.includes()
+    for(let catName of catNames){
+        if (catName.includes(keyword)) {
+        console.log(catName);
+        }
+    }
 }
 
 main(process.argv[2])
